@@ -12,29 +12,26 @@ const Header = () => {
 
                 <div className={Toggle ? "nav_menu show-menu": "nav__menu" }>
                     <ul className="nav__list">
+                  
                         <li className="nav__item">
                             <a href="#home" className="nav__link">
-                                <i className="uil uil-estate nav__icon">Home</i>
+                                Home
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
-                                <i className="uil uil-user nav__icon">About</i>
+                                About
                             </a>
                         </li>
                         <li className="nav__item">
                             <a href="#skills" className="nav__link">
-                                <i className="uil uil-file-alt nav__icon">Skills</i>
+                                Skills
                             </a>
                         </li>
+                        
                         <li className="nav__item">
                             <a href="/#" className="nav__link">
-                                <i className="uil uil-scenery nav__icon">Portfolio</i>
-                            </a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="/#" className="nav__link">
-                                <i className="uil uil-message nav__icon">Contact</i>
+                                Contact
                             </a>
                         </li>
                     </ul>
@@ -43,6 +40,7 @@ const Header = () => {
                 </div>
                 <div className="nav__toggle" onClick={ () => showMenu(!Toggle
                     )}>
+                    <p className="menu">Menu</p>
                     <i className="uil uil-apps"></i>
                 </div>
             </nav>
