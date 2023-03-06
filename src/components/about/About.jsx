@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./about.scss";
 import CV from "../../assets/Marcin_Walczak_CV.pdf"
 import Info from "./Info";
 
