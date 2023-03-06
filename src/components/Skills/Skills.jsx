@@ -1,11 +1,11 @@
 import React from "react";
-import './skills.css'
+import './skills.scss'
 
 class Skills extends React.Component {
    
     state = { 
         tags: [
-            'HTML', 'CSS', 'Boostrap', 'SASS', 'PHP', 'SQL', 'JavaScript', 'Typescript',  'React', 'SVG', 'animation', 'webdev', 'Git', 'NPM', 'Redux'
+            'HTML', 'CSS', 'Bootstrap', 'SASS', 'PHP', 'Laravel', 'SQL', 'JavaScript', 'Typescript',  'React', 'AJAX', 'SVG', 'animation', 'webdev', 'Git', 'NPM', 'Redux'
         ]
     }
             
