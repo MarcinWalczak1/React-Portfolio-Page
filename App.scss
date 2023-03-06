@@ -1,0 +1,96 @@
+$color_1: #000;
+$font-family_1: var(--body-font);
+$background-color_1: #f8f9f9;
+$body-font: 'Poppins', sans-serif;
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Slab&display=swap";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: $body-font;
+	font-size: 1rem;
+	background-color: $background-color_1;
+	color: $color_1;
+}
+h1 {
+	color: $color_1;
+	font-weight: 400;
+}
+h2 {
+	color: $color_1;
+	font-weight: 400;
+}
+h3 {
+	color: $color_1;
+	font-weight: 400;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+button {
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.section {
+	padding: 6rem 0 2rem;
+}
+.section__title {
+	font-size: 1,5rem;
+	text-align: center;
+}
+.section__subtitle {
+	display: block;
+	font-size: 0.8 rem;
+	margin-bottom: 4rem;
+	text-align: center;
+}
+.container {
+	max-width: 968px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.grid {
+	display: grid;
+	gap: 1.5rem;
+}
+.button {
+	display: inline-block;
+	padding: 1.25rem 2rem;
+	border-radius: 1rem;
+	font-weight: 300;
+}
+.button__icon {
+	margin-left: 0.5rem;
+}
+.button--flex {
+	display: inline-flex;
+	align-items: center;
+}
+@media screen and (max-width: 992px) {
+	.container {
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
+	}
+}
+@media screen and (max-width: 350px) {
+	.container {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}
